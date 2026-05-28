@@ -33,7 +33,7 @@ export default function Footer() {
             <FaLinkedin className="size-7 md:size-8" />
           </a>
           <a
-            href="mailto:madrobot9182@protonmail.com?subject=Getting%20in%20Contact&body=Hello,%20I'm%20interested%20in%20learning%20more.%20Please%20contact%20me:%20"
+            href="mailto:ryany9182@protonmail.com"
             target="_blank"
           >
             <MdMail className="size-7 md:size-8" />
