@@ -25,41 +25,52 @@ export default function AboutMe() {
 
       <div>
         <p className="mb-6">
-          Sup! I am a computer science and mathematics student at the University of Alberta, specializing in artificial
-          intelligence. I have a passion for creating interesting projects that intersect functionality and creativity.
-          As a software developer, game developer, musician, language learner, and hardware enthusiast, I&apos;m always
-          trying to develop new skills and build upon current and emerging industries.
+          Sup! I am a 4th year Computer Science, Specialization in AI student at the University of Alberta. Always
+          curious about the world, never willing to stop. I am currently researching how to apply reinforcement learning
+          to extract game audio, and to correlate game audio with player tension. Also a TA for the Computer Game
+          Development Certificate.
         </p>
         <p className="mb-6">
-          I have a wide variety of hobbies and endeavors, from 3D printing to composing music, playing and making video
-          games, and programming various software projects across the tech stack. Billingual in English and Mandarin,
-          and also learning Japanese and French. See my blog and project pages for more details!
-          <br />
+          Outside of my career, I have a wide variety of hobbies. Indie game development, travel enthusiast, digital
+          music composer, and a billingual English/Mandarin language learner. Never neglect your work-life balance.
         </p>
         <HorizontalLine />
-        <h1 className="font-medium text-4xl pt-4 mb-0"> Technologies </h1>
-        <h2 className="font-medium mt-8 mb-3">A list of technologies, languages, and tools that I am familiar with:</h2>
-
+        <h1 className="font-medium text-4xl pt-4 mb-4"> Contact </h1>
+        <p className="mb-6">
+          If you are interested in working together, I am currently looking for work in the field of AI research and
+          development, data scientist, or game development. You can also find these links in the bottom bar.
+        </p>
         <ul className={ulClassName}>
-          <li>Functional Languages</li>
-          <ul className={ulClassName}>
-            <li>C, C#, C++, Python, Java, Javascript, SQL, Julia, Risc-V Assembly</li>
-            <li>PyTorch, NumPy, Matplotlib, scikit-learn, pandas</li>
-          </ul>
-          <li>Framework</li>
-          <ul className={ulClassName}>
-            <li>Node.js, React.js, Next.js, Tailwind CSS, ChakraUI, Flutter</li>
-          </ul>
-          <li>Databases</li>
-          <ul className={ulClassName}>
-            <li>SqLite, MongoDB, Firebase</li>
-          </ul>
-          <li>Tools</li>
-          <ul className={ulClassName}>
-            <li>Git, GitHub, Docker, Kubernetes, Linux, Unix, Jupyter Notebook</li>
-          </ul>
-          <li>Collaborative Software</li>
-          <ul className={ulClassName}>Slack, Trello, Figma, Norton, Google Workspace, Microsoft Office, LibreOffice</ul>
+          <li>Email: ryany9182@protonmail.com</li>
+          <li>
+            Github:{" "}
+            <a href="https://github.com/Madrobot9182/" target="_blank">
+              https://github.com/Madrobot9182/
+            </a>
+          </li>
+          <li>
+            Linkedin:{" "}
+            <a href="https://www.linkedin.com/in/ryan-yan-b296a4205/" target="_blank">
+              https://www.linkedin.com/in/ryan-yan-b296a4205/
+            </a>
+          </li>
+        </ul>
+        <HorizontalLine />
+        <h1 className="font-medium text-4xl pt-4 mb-4"> Technical Skills </h1>
+        <ul className={ulClassName}>
+          <li>Languages: Python, C, C++, C#, Java, JavaScript, SQL, Julia, RISC-V Assembly</li>
+
+          <li>Libraries: PyTorch, NumPy, Matplotlib, scikit-learn, panda</li>
+
+          <li>Frameworks: Node.js, React.js, Next.js, Tailwind CSS, ChakraUI, Flutter</li>
+
+          <li>Game Engines: Unity, Godot, Unreal</li>
+
+          <li>Databases: SQLite, MongoDB, Firebase, Neon</li>
+
+          <li>Tools: Git, GitHub, Docker Compose, Linux, Unix, Jupyter Notebook</li>
+
+          <li>Collaboration: Slack, Trello, Figma, Google Workspace, Microsoft Office, LibreOffice</li>
         </ul>
       </div>
     </div>
