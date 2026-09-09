@@ -1,5 +1,5 @@
 import HorizontalLine from "@/components/horizontal-line";
-import ProfilePfp from "../../../public/placeholders/ProfilePfp.jpg";
+import ProfilePfp from "../../../public/placeholders/ProfilePfp.avif";
 import Image from "next/image";
 
 export default function AboutMe() {
@@ -9,7 +9,7 @@ export default function AboutMe() {
     <div className="mx-auto flex flex-col justify-between items-center px-6 mb-2 md:max-w-7xl">
       <div className="mx-auto flex flex-col gap-x-7 mt-10 mb-10 justify-between items-center">
         <div className="flex flex-row gap-6 mb-5">
-          <Image src={ProfilePfp} alt="Profile Picture" width={200} height={200} className="rounded-lg" />
+          <Image src={ProfilePfp} alt="Profile Picture" className="rounded-lg w-auto h-auto" />
           <div>
             <h1 className="text-left wrap text-7xl font-semibold mt-5">Ryan</h1>
             <h1 className="text-left wrap text-7xl font-semibold">Yan</h1>
@@ -25,14 +25,13 @@ export default function AboutMe() {
 
       <div>
         <p className="mb-6">
-          Sup! I am a 4th year Computer Science, Specialization in AI student at the University of Alberta. Always
-          curious about the world, never willing to stop. I am currently researching how to apply reinforcement learning
-          to extract game audio, and to correlate game audio with player tension. Also a TA for the Computer Game
-          Development Certificate.
+          Sup! I am a 5th year Computer Science, Specialization in AI student at the University of Alberta. I am
+          currently researching how to apply reinforcement learning to extract game audio, and to correlate game audio
+          with player tension. Also a TA for the Computer Game Development Certificate.
         </p>
         <p className="mb-6">
           Outside of my career, I have a wide variety of hobbies. Indie game development, travel enthusiast, digital
-          music composer, and a billingual English/Mandarin language learner. Never neglect your work-life balance.
+          music composer, and billingual in English & Mandarin.
         </p>
         <HorizontalLine />
         <h1 className="font-medium text-4xl pt-4 mb-4"> Contact </h1>
